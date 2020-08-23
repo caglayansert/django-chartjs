@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Home
+{% endblock title %}
+
+
+
+{% block content %}
+<div class="ui icon message">
+    <i class="inbox icon"></i>
+    <div class="content">
+        <div class="header">
+           Do you have any questions?
+        </div>
+        <p>If so contact me on my email: tets@test.com</p>
+    </div>
+</div>
+
+<div class="ui segment">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elementum vitae nunc at venenatis. Suspendisse
+        suscipit eget erat nec fermentum. Quisque eleifend iaculis felis. Donec lacinia mauris eget tortor vulputate
+        interdum. Sed facilisis mollis augue, viverra finibus mi ultrices ac. Donec molestie libero sit amet libero
+        aliquet aliquam. Sed aliquam metus ac augue feugiat interdum hendrerit ut enim. Aliquam consequat non neque quis
+        euismod. In convallis nunc lectus, nec vestibulum augue mollis non. Donec tempus risus nisl, euismod euismod dui
+        posuere vel. Pellentesque interdum nulla eget justo faucibus ultrices. Nullam eget mi et justo efficitur
+        faucibus. Maecenas ut scelerisque nisi, eget sodales diam. Etiam a condimentum mi. Vivamus rutrum eleifend
+        ipsum. Aliquam erat volutpat.
+
+        Donec porta ornare euismod. Sed in tellus finibus felis aliquet condimentum at in nulla. Integer at libero
+        bibendum, rutrum lacus quis, mattis orci. Nullam elementum vel diam eget vestibulum. Sed ultrices tempor
+        venenatis. Integer quis metus vulputate, dapibus mi vitae, egestas ligula. Quisque eleifend sapien metus, in
+        euismod nunc congue et. Donec lacinia quis nibh auctor condimentum. Sed euismod, mi ac lobortis convallis, justo
+        turpis consectetur erat, vitae finibus massa ante eget lacus. Morbi euismod ultrices tellus in auctor. Sed
+        ultrices erat egestas elit molestie, eget ultrices augue tincidunt. Etiam at dignissim velit. Donec faucibus,
+        urna eget ullamcorper scelerisque, nisi diam consectetur mauris, sed vehicula erat libero id purus. Sed et
+        vulputate orci. In at nunc ac nunc elementum aliquet. Phasellus tristique iaculis tristique.
+
+        Mauris fermentum quis dolor ac luctus. Donec tincidunt ligula justo, ut facilisis diam finibus id. Morbi
+        bibendum, nisl volutpat lacinia ornare, eros magna dignissim quam, eget facilisis orci nunc eu dolor. Vivamus
+        eget ultricies diam. In tristique in dolor at placerat. Vestibulum a ullamcorper nisl. Etiam cursus suscipit
+        augue, et cursus nibh dignissim ut.
+
+        Quisque eget hendrerit enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+        turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse eu lorem nunc. Mauris
+        vel elementum felis, vel tempor lectus. Mauris vulputate eros ut justo accumsan eleifend. Vestibulum egestas
+        vulputate tellus eu tincidunt. Maecenas pulvinar rhoncus ex, et aliquet lorem aliquam ut. Morbi purus leo,
+        finibus mollis felis vel, sodales euismod justo.
+
+        Vestibulum euismod enim ac volutpat finibus. Phasellus sed dictum neque, ut scelerisque justo. Praesent dui
+        quam, blandit et nulla id, posuere varius nulla. Donec odio orci, tempor sit amet turpis in, ullamcorper
+        efficitur metus. Vestibulum posuere mauris scelerisque, egestas urna et, tincidunt lacus. Pellentesque tempus in
+        ligula facilisis rutrum. Sed a libero convallis est bibendum efficitur vel a ligula.</p>
+        <br>
+        <div class="sixteen wide column" style="text-align:center">
+            <a href="{% url 'skills:my-skills' %}">
+                <button class="massive primary ui button">
+                    <i class="chart line icon"></i>
+                    My Skills
+                </button>
+
+            </a>
+
+        </div>
+</div>
+
+{% endblock content %}
+    
